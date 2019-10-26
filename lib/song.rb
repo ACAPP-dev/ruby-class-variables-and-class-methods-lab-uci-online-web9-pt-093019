@@ -40,6 +40,6 @@ class Song
     @@artists.uniq.each do |artist_element|
       @@artist_hash[artist_element] = @@artists.count {|element| element == artist_element}
     end
-    p @@artist_hash
+    @@artist_hash
   end
 end
